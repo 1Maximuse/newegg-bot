@@ -63,7 +63,7 @@ def order(cookie, product, user_id, delay):
                 print(f'Successfully added {prod_name} to cart!')
                 print(str(threading.activeCount() - 2) + ' products left to order.')
                 break
-        sleep(delay)
+        time.sleep(delay)
             
 
 def main():
