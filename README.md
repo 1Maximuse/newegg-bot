@@ -11,14 +11,18 @@ A bot to automate checking and adding products to cart.
 ## How to run from source (non exe)
 
 1. Install Python 3
-2. Double click `run.bat`
+2. Login to NewEgg from **Google Chrome**.
+3. List NewEgg URL of products that you want to get in `productlist.txt`, one per line.
+4. Double click `run.bat`
 
 ## How to run from Python script (manual)
 
 1. Install Python 3
-2. (optional) Create and activate a virtual environment.
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the program: `python neweggbot.py [delay in seconds]`
+2. Login to NewEgg from **Google Chrome**.
+3. List NewEgg URL of products that you want to get in `productlist.txt`, one per line.
+4. (optional) Create and activate a virtual environment.
+5. Install dependencies: `pip install -r requirements.txt`
+6. Run the program: `python neweggbot.py [delay in seconds]`
 
 Note: Delay in seconds is optional, defaults to 1 second. This might prevent temporary bans due to rapid requests.
 
