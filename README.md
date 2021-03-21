@@ -13,6 +13,7 @@ A bot to automate checking and adding products to cart.
 1. Install Python 3
 2. (optional) Create and activate a virtual environment.
 3. Install dependencies: `pip install -r requirements.txt`
+4. Run the program: `python neweggbot.py [delay in seconds]`
 
 Note: Delay in seconds is optional, defaults to 1 second. This might prevent temporary bans due to rapid requests.
 
